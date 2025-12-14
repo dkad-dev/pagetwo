@@ -1,1 +1,1 @@
-html[data-page=discography] main{display:flex;justify-content:center}
+html[data-page=discography] main .thumb_container{display:grid;grid-template-columns:repeat(6, 1fr);grid-template-rows:repeat(5, 1fr);gap:1vw}@media(max-width: 1200px){html[data-page=discography] main .thumb_container{grid-template-columns:1fr 1fr;grid-template-rows:repeat(15, 1fr);gap:3vw}}html[data-page=discography] main .thumb_container>img{width:100%;height:auto;border:1px solid #ccc;opacity:0;transition:opacity .3s;cursor:pointer}html[data-page=discography] main .thumb_container>img.loaded{opacity:1}
