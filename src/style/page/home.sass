@@ -1,0 +1,27 @@
+html[data-page='home']
+	background: black
+	@media (max-width: 1200px)
+		background: white
+	body
+		background: url('../../assets/images/home/twice.webp')
+		background-size: cover
+		background-position-x: center
+		@media (max-width: 1200px)
+			background: white
+		header, footer
+			filter: invert(1)
+			opacity: 0.8
+			@media (max-width: 1200px)
+				filter: invert(0)
+				opacity: 1
+		main
+			.mobile_image
+				display: none
+				aspect-ratio: 2000/2800
+				width: 94vw
+				height: auto
+				border: 1px solid #ccc
+				background-image: url('../../assets/images/home/twice2.webp')
+				background-size: cover
+				@media (max-width: 1200px)
+					display: block
