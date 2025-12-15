@@ -8,14 +8,12 @@ const __dirname = path.dirname(__filename)
 const app = express()
 const distPath = path.join(__dirname, 'dist')
 
-app.use(express.static(distPath))
+app.use(express.static(distPath), { maxAge: '1y', immutable: true })
 
-// SPA fallback
 app.use((req, res) => {
-	res.sendFile(path.join(distPath, 'index.html'))
+	res.set('Cache-Control', 'no-cache').sendFile(path.join(distPath, 'index.html'))
 })
 
-const PORT = process.env.PORT || 3000
-app.listen(PORT, () => {
-	console.log(`Server running on port ${PORT}`)
+app.listen(process.env.PORT, () => {
+	console.log('Express: Server is up and running')
 })
