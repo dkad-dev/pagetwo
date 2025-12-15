@@ -1,9 +1,34 @@
+import { useState } from 'react'
+import { photos } from '../data/photos'
+import GalleryModal from '../components/GalleryModal'
 import '../style/page/gallery.css'
 
 export default function Gallery() {
+	const [activeIndex, setActiveIndex] = useState(null)
+	const [count, setCount] = useState(0)
+
 	return (
 		<main>
-			Gallery
+			<div className='thumb_container'>
+				{photos.map((photo, index) => {
+					return (
+						<img
+							key={photo.title}
+							alt={photo.title}
+							src={index <= count ? `/images/gallery/${photo.title}.jpeg` : undefined}
+							onLoad={e => {
+								e.currentTarget.classList.add('loaded')
+								setCount(c => c + 1)
+							}}
+							width={photo.width}
+							height={photo.height}
+							onClick={() => setActiveIndex(index)}
+						/>
+					)
+				})}
+			</div>
+
+			{activeIndex !== null && (<GalleryModal idx={activeIndex} onClose={() => setActiveIndex(null)} />)}
 		</main>
 	)
 }
