@@ -1,5 +1,3 @@
-import '../style/page/home.css'
-
 export default function Home() {
 	return (
 		<main>

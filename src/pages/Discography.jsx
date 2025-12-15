@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { albums } from '../data/albums'
 import DiscographyModal from '../components/DiscographyModal'
-import '../style/page/discography.css'
 
 export default function Discography() {
 	const [activeAlbum, setActiveAlbum] = useState(null)

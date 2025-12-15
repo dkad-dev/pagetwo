@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { members } from '../data/members'
 import ProfileModal from '../components/ProfileModal'
-import '../style/page/profile.css'
 
 export default function Profile() {
   const [activeMember, setActiveMember] = useState(null)

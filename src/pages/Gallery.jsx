@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { photos } from '../data/photos'
 import GalleryModal from '../components/GalleryModal'
-import '../style/page/gallery.css'
 
 export default function Gallery() {
 	const [activeIndex, setActiveIndex] = useState(null)
