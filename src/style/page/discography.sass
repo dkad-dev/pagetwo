@@ -18,3 +18,57 @@ html[data-page='discography']
 				cursor: pointer
 			> img.loaded
 				opacity: 1
+		.modal
+			@media (max-width: 1200px)
+				align-items: flex-start
+				padding: 3%
+			.grid_container
+				display: grid
+				grid-template-columns: 35vw minmax(35vw, 1fr)
+				column-gap: 2.4vw
+				@media (max-width: 1200px)
+					grid-template-columns: 1fr
+					row-gap: 3vw
+				> img
+					width: 100%
+				.text_detail
+					padding: 2.4vw
+					border: 1px solid #ccc
+					overflow: hidden
+					line-height: 1.5
+					@media (max-width: 1200px)
+						padding: 3vw
+					.title
+						display: inline-block
+						font-size: 2.3vw
+						font-weight: 600
+						white-space: nowrap
+						@media (max-width: 1200px)
+							display: block
+							font-size: 10vw
+							font-weight: 500
+							overflow: hidden
+							text-overflow: ellipsis
+					.release
+						display: inline-block
+						margin-left: 1vw
+						font-size: 1.1vw
+						font-weight: 400
+						@media (max-width: 1200px)
+							display: block
+							margin: 0
+							font-size: 5.2vw
+					.tracklist
+						font-weight: 400
+						@media (max-width: 1200px)
+							margin-top: 4.5vw
+						.track
+							vertical-align: middle
+							font-size: 1.3vw
+							@media (max-width: 1200px)
+								font-size: 6vw
+						.author
+							vertical-align: middle
+							font-size: 1vw
+							@media (max-width: 1200px)
+								font-size: 4.5vw
