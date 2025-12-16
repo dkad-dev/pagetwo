@@ -11,28 +11,28 @@ export const members = [
 		name: "jeongyeon",
 		birth: "November 1, 1996",
 		nation: "South Korea",
-		intro: "Jeongyeon stands out with her powerful and distinctive vocals, often taking on key vocal roles in TWICE's music. Off stage, she is endeared for her cool, caring, and down-to-earth personality."
+		intro: "Jeongyeon stands out with powerful and distinct vocals, often taking key vocal roles in TWICE's music. Off stage, she is endeared for her cool personality and caring, straightforward character."
 	},
 	{
 		id: "fDwoc1darYk",
 		name: "momo",
 		birth: "November 9, 1996",
 		nation: "Japan",
-		intro: "Momo is arguably the group's most talented dancer, celebrated for her precise and powerful moves. Her deliberate flow and flawless choreography solidify her as a commanding leader on stage."
+		intro: "Momo is recognized as the group's strongest dancer, celebrated for her precise and powerful moves. Her deliberate flow and flawless choreography solidify her as a commanding leader on stage."
 	},
 	{
 		id: "CPcvaBmrD60",
 		name: "sana",
 		birth: "December 29, 1996",
 		nation: "Japan",
-		intro: "Sana is renowned for her infectious charm and lively personality, often drawing attention for her playful interactions. Despite her popularity, Sana has been regarded as TWICE's most humble member."
+		intro: "Sana is renowned for her infectious charm and lively personality, often drawing attention for her playful fan interactions. Despite her popularity, Sana has been regarded as TWICE's most humble member."
 	},
 	{
 		id: "CYicpmxKyME",
 		name: "jihyo",
 		birth: "February 1, 1997",
 		nation: "South Korea",
-		intro: "Jihyo, the official leader of TWICE, is known for her strong leadership skills and dedication to the group's success. Jihyo is praised for her maturity and calm demeanor, both on and off the stage."
+		intro: "Jihyo, the official leader of TWICE, is known for her strong leadership skills and dedication to the group's well-being. Jihyo is praised for her maturity and calm demeanor, both on and off the stage."
 	},
 	{
 		id: "7kV7urmtsWE",
@@ -60,6 +60,6 @@ export const members = [
 		name: "tzuyu",
 		birth: "June 14, 1999",
 		nation: "Taiwan",
-		intro: "Tzuyu, the youngest member, captivates audiences with her visuals and ethereal presence. Despite her reserved nature, her studio recordings reveal a confident, powerful, and authentic individual."
+		intro: "Tzuyu, the youngest member, captivates audiences with her visuals and ethereal presence. Despite her reserved nature, her studio recordings reveal a confident, sincere, and authentic individual."
 	}
 ]
