@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import { videos } from '../data/videos'
-// import DiscographyModal from '../components/DiscographyModal'
+import YouTubeModal from '../components/YouTubeModal'
 
 export default function Video() {
-	// const [activeChoreo, setActiveChoreo] = useState(null)
+	const [activeVideo, setActiveVideo] = useState(null)
 	const [count, setCount] = useState(0)
 
 	return (
@@ -22,7 +22,7 @@ export default function Video() {
 								}}
 								width={1920}
 								height={1080}
-								// onClick={() => setActiveAlbum(album)}
+								onClick={() => setActiveVideo(video)}
 							/>
 							<div>{video.title}</div>
 						</div>
@@ -30,7 +30,7 @@ export default function Video() {
 				})}
 			</div>
 
-			{/* {activeAlbum && (<DiscographyModal album={activeAlbum} onClose={() => setActiveAlbum(null)} />)} */}
+			{activeVideo && (<YouTubeModal obj={activeVideo} onClose={() => setActiveVideo(null)} />)}
 		</main>
 	)
 }

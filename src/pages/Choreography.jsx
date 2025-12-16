@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import { choreos } from '../data/choreos'
-// import DiscographyModal from '../components/DiscographyModal'
+import YouTubeModal from '../components/YouTubeModal'
 
 export default function Choreography() {
-	// const [activeChoreo, setActiveChoreo] = useState(null)
+	const [activeChoreo, setActiveChoreo] = useState(null)
 	const [count, setCount] = useState(0)
 
 	return (
@@ -22,7 +22,7 @@ export default function Choreography() {
 								}}
 								width={1920}
 								height={1080}
-								// onClick={() => setActiveAlbum(album)}
+								onClick={() => setActiveChoreo(choreo)}
 							/>
 							<div>{choreo.title}</div>
 						</div>
@@ -30,7 +30,7 @@ export default function Choreography() {
 				})}
 			</div>
 
-			{/* {activeAlbum && (<DiscographyModal album={activeAlbum} onClose={() => setActiveAlbum(null)} />)} */}
+			{activeChoreo && (<YouTubeModal obj={activeChoreo} onClose={() => setActiveChoreo(null)} />)}
 		</main>
 	)
 }
