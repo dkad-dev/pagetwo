@@ -15,7 +15,7 @@ export default function DiscographyModal({ album, onClose }) {
 	return (
 		<div className='modal' onClick={onClose}>
 			<div className='grid_container'>
-				<img src={`images/discography/${album.art}.jpeg`} alt={album.title} />
+				<img src={`images/discography/${album.image}.jpeg`} alt={album.title} />
 				<div className='text_detail frost'>
 					<div className='title'>{album.title}</div>
 					<div className='release'>{album.release}</div>

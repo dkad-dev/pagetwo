@@ -2,7 +2,7 @@ export const albums = [
 	{
 		title: "READY TO BE",
 		release: "March 10, 2023",
-		art: "readytobe",
+		image: "readytobe",
 		tracklist: [
 			"SET ME FREE",
 			"MOONLIGHT SUNRISE",
@@ -16,7 +16,7 @@ export const albums = [
 	{
 		title: "BETWEEN 1&2",
 		release: "August 26, 2022",
-		art: "between1&2",
+		image: "between1&2",
 		tracklist: [
 			"Talk That Talk",
 			"Queen of Hearts",
@@ -30,7 +30,7 @@ export const albums = [
 	{
 		title: "Celebrate",
 		release: "July 27, 2022",
-		art: "celebrate",
+		image: "celebrate",
 		tracklist: [
 			"Celebrate • TWICE",
 			"Voices of Delight",
@@ -46,7 +46,7 @@ export const albums = [
 	{
 		title: "IM NAYEON",
 		release: "June 24, 2022",
-		art: "imnayeon",
+		image: "imnayeon",
 		tracklist: [
 			"POP!",
 			"NO PROBLEM",
@@ -60,7 +60,7 @@ export const albums = [
 	{
 		title: "#TWICE4",
 		release: "March 26, 2022",
-		art: "twice4",
+		image: "twice4",
 		tracklist: [
 			"I CAN'T STOP ME (Japanese Ver.)",
 			"CRY FOR ME (Japanese Ver.)",
@@ -71,7 +71,7 @@ export const albums = [
 	{
 		title: "Formula of Love",
 		release: "November 12, 2021",
-		art: "formulaoflove",
+		image: "formulaoflove",
 		tracklist: [
 			"SCIENTIST",
 			"MOONLIGHT",
@@ -94,7 +94,7 @@ export const albums = [
 	{
 		title: "Perfect World",
 		release: "July 28, 2021",
-		art: "perfectworld",
+		image: "perfectworld",
 		tracklist: [
 			"Perfect World",
 			"BETTER",
@@ -111,7 +111,7 @@ export const albums = [
 	{
 		title: "Taste of Love",
 		release: "June 11, 2021",
-		art: "tasteoflove",
+		image: "tasteoflove",
 		tracklist: [
 			"Alcohol-Free",
 			"First Time • Jihyo",
@@ -124,7 +124,7 @@ export const albums = [
 	{
 		title: "Eyes wide open",
 		release: "October 26, 2020",
-		art: "eyeswideopen",
+		image: "eyeswideopen",
 		tracklist: [
 			"I CAN'T STOP ME",
 			"HELL IN HEAVEN",
@@ -144,7 +144,7 @@ export const albums = [
 	{
 		title: "#TWICE3",
 		release: "September 16, 2020",
-		art: "twice3",
+		image: "twice3",
 		tracklist: [
 			"The Best Thing I Ever Did (Japanese Ver.)",
 			"FANCY (Japanese Ver.)",
@@ -157,7 +157,7 @@ export const albums = [
 	{
 		title: "MORE & MORE",
 		release: "June 1, 2020",
-		art: "more&more",
+		image: "more&more",
 		tracklist: [
 			"MORE & MORE",
 			"OXYGEN",
@@ -171,7 +171,7 @@ export const albums = [
 	{
 		title: "&TWICE -Repackage-",
 		release: "Febuary 5, 2020",
-		art: "&twicerepackage",
+		image: "&twicerepackage",
 		tracklist: [
 			"SWING",
 			"Fake & True",
@@ -189,7 +189,7 @@ export const albums = [
 	{
 		title: "&TWICE",
 		release: "November 19, 2019",
-		art: "&twice",
+		image: "&twice",
 		tracklist: [
 			"Fake & True",
 			"Stronger",
@@ -206,7 +206,7 @@ export const albums = [
 	{
 		title: "Feel Special",
 		release: "September 23, 2019",
-		art: "feelspecial",
+		image: "feelspecial",
 		tracklist: [
 			"Feel Special",
 			"RAINBOW • Nayeon",
@@ -220,7 +220,7 @@ export const albums = [
 	{
 		title: "FANCY YOU",
 		release: "April 22, 2019",
-		art: "fancyyou",
+		image: "fancyyou",
 		tracklist: [
 			"FANCY",
 			"STUCK IN MY HEAD",
@@ -233,7 +233,7 @@ export const albums = [
 	{
 		title: "#TWICE2",
 		release: "March 6, 2019",
-		art: "twice2",
+		image: "twice2",
 		tracklist: [
 			"LIKEY (Japanese Ver.)",
 			"Heart Shaker (Japanese Ver.)",
@@ -245,7 +245,7 @@ export const albums = [
 	{
 		title: "BDZ -Repackage-",
 		release: "December 26, 2018",
-		art: "bdzrepackage",
+		image: "bdzrepackage",
 		tracklist: [
 			"STAY BY MY SIDE",
 			"BDZ",
@@ -263,7 +263,7 @@ export const albums = [
 	{
 		title: "The year of YES",
 		release: "December 12, 2018",
-		art: "yearofyes",
+		image: "yearofyes",
 		tracklist: [
 			"The Best Thing I Ever Did",
 			"Be as ONE (Korean Ver.)",
@@ -279,7 +279,7 @@ export const albums = [
 	{
 		title: "YES or YES",
 		release: "November 5, 2018",
-		art: "yesoryes",
+		image: "yesoryes",
 		tracklist: [
 			"YES or YES",
 			"SAY YOU LOVE ME",
@@ -293,7 +293,7 @@ export const albums = [
 	{
 		title: "BDZ",
 		release: "September 12, 2018",
-		art: "bdz",
+		image: "bdz",
 		tracklist: [
 			"BDZ",
 			"One More Time",
@@ -310,7 +310,7 @@ export const albums = [
 	{
 		title: "Summer Nights",
 		release: "July 9, 2018",
-		art: "summernights",
+		image: "summernights",
 		tracklist: [
 			"Dance The Night Away",
 			"CHILLAX",
@@ -326,7 +326,7 @@ export const albums = [
 	{
 		title: "What is Love?",
 		release: "April 10, 2018",
-		art: "whatislove",
+		image: "whatislove",
 		tracklist: [
 			"What is Love?",
 			"SWEET TALKER • Jeongyeon, Chaeyoung",
@@ -339,7 +339,7 @@ export const albums = [
 	{
 		title: "Merry & Happy",
 		release: "December 11, 2017",
-		art: "merryhappy",
+		image: "merryhappy",
 		tracklist: [
 			"Heart Shaker",
 			"Merry & Happy",
@@ -361,7 +361,7 @@ export const albums = [
 	{
 		title: "twicetagram",
 		release: "October 30, 2017",
-		art: "twicetagram",
+		image: "twicetagram",
 		tracklist: [
 			"LIKEY",
 			"TURTLE",
@@ -381,7 +381,7 @@ export const albums = [
 	{
 		title: "#TWICE",
 		release: "June 28, 2017",
-		art: "twice",
+		image: "twice",
 		tracklist: [
 			"Like OOH-AHH (Japanese Ver.)",
 			"CHEER UP (Japanese Ver.)",
@@ -393,7 +393,7 @@ export const albums = [
 	{
 		title: "SIGNAL",
 		release: "May 15, 2017",
-		art: "signal",
+		image: "signal",
 		tracklist: [
 			"SIGNAL",
 			"THREE TIMES A DAY",
@@ -406,7 +406,7 @@ export const albums = [
 	{
 		title: "TWICEcoaster LANE 2",
 		release: "Febuary 20, 2017",
-		art: "twicecoaster2",
+		image: "twicecoaster2",
 		tracklist: [
 			"KNOCK KNOCK",
 			"Ice Cream",
@@ -422,7 +422,7 @@ export const albums = [
 	{
 		title: "TWICEcoaster LANE 1",
 		release: "October 24, 2016",
-		art: "twicecoaster1",
+		image: "twicecoaster1",
 		tracklist: [
 			"TT",
 			"1 TO 10",
@@ -436,7 +436,7 @@ export const albums = [
 	{
 		title: "PAGE TWO",
 		release: "April 25, 2016",
-		art: "pagetwo",
+		image: "pagetwo",
 		tracklist: [
 			"Cheer Up",
 			"Precious Love • Chaeyoung",
@@ -449,7 +449,7 @@ export const albums = [
 	{
 		title: "THE STORY BEGINS",
 		release: "October 20, 2015",
-		art: "thestorybegins",
+		image: "thestorybegins",
 		tracklist: [
 			"Like OOH-AHH",
 			"Do it again",

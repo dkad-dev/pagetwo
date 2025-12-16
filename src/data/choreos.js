@@ -1,122 +1,122 @@
 export const choreos = [
 	{
-		title: "SET ME FREE",
 		id: "sXM5GwksZIY",
+		title: "SET ME FREE",
 		image: "setmefree"
 	},
 	{
-		title: "MOONLIGHT SUNRISE",
 		id: "E1bGxyNLIdQ",
+		title: "MOONLIGHT SUNRISE",
 		image: "moonlightsunrise"
 	},
 	{
-		title: "Talk that Talk",
 		id: "_hiR58brDz4",
+		title: "Talk that Talk",
 		image: "talkthattalk"
 	},
 	{
-		title: "POP!",
 		id: "_c4cKLYD28o",
+		title: "POP!",
 		image: "pop"
 	},
 	{
-		title: "SCIENTIST",
 		id: "hUSqTW21Xl8",
+		title: "SCIENTIST",
 		image: "scientist"
 	},
 	{
-		title: "The Feels",
 		id: "90mwhuwIQco",
+		title: "The Feels",
 		image: "thefeels"
 	},
 	{
-		title: "Alcohol-Free",
 		id: "9ELyfj8NcjM",
+		title: "Alcohol-Free",
 		image: "alcoholfree"
 	},
 	{
-		title: "CRY FOR ME",
 		id: "nUP0SLPtQgU",
+		title: "CRY FOR ME",
 		image: "cryforme"
 	},
 	{
-		title: "I CAN'T STOP ME",
 		id: "TPpmOzpHiE0",
+		title: "I CAN'T STOP ME",
 		image: "icantstopme"
 	},
 	{
-		title: "MORE & MORE",
 		id: "xiMNWJr8J1w",
+		title: "MORE & MORE",
 		image: "more&more"
 	},
 	{
-		title: "Feel Special",
 		id: "yChy1KRIWAY",
+		title: "Feel Special",
 		image: "feelspecial"
 	},
 	{
-		title: "FANCY",
 		id: "iRw4kL1CMI8",
+		title: "FANCY",
 		image: "fancy"
 	},
 	{
-		title: "YES or YES",
 		id: "Nl4BJ2TDmWE",
+		title: "YES or YES",
 		image: "yesoryes"
 	},
 	{
-		title: "Dance The Night Away",
 		id: "mr5bu2cxdzU",
+		title: "Dance The Night Away",
 		image: "dancethenightaway"
 	},
 	{
-		title: "What is Love?",
 		id: "WhHEQ-W3x5Y",
+		title: "What is Love?",
 		image: "whatislove"
 	},
 	{
-		title: "Heart Shaker",
 		id: "bRveOotrnFA",
+		title: "Heart Shaker",
 		image: "heartshaker"
 	},
 	{
-		title: "LIKEY",
 		id: "aHN1dK2UxE4",
+		title: "LIKEY",
 		image: "likey"
 	},
 	{
-		title: "SIGNAL",
 		id: "EpMwiqW8k8o",
+		title: "SIGNAL",
 		image: "signal"
 	},
 	{
-		title: "KNOCK KNOCK",
 		id: "idOQFSu_4Ok",
+		title: "KNOCK KNOCK",
 		image: "knockknock"
 	},
 	{
-		title: "JELLY JELLY",
 		id: "WuLQ5iV3Q64",
+		title: "JELLY JELLY",
 		image: "jellyjelly"
 	},
 	{
-		title: "1 TO 10",
 		id: "oygnWGnh60s",
+		title: "1 TO 10",
 		image: "1to10"
 	},
 	{
-		title: "TT",
 		id: "9uypQGzzhns",
+		title: "TT",
 		image: "tt"
 	},
 	{
-		title: "CHEER UP",
 		id: "7T4wxA2BGTo",
+		title: "CHEER UP",
 		image: "cheerup"
 	},
 	{
-		title: "Like OOH-AHH",
 		id: "cszZgUUwLjE",
+		title: "Like OOH-AHH",
 		image: "likeoohahh"
 	}
 ]

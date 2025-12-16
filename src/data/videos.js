@@ -1,202 +1,202 @@
 export const videos = [
 	{
-		title: "SET ME FREE",
 		id: "w4cTYnOPdNk",
+		title: "SET ME FREE",
 		image: "setmefree"
 	},
 	{
-		title: "MOONLIGHT SUNRISE",
 		id: "cKlEE_EYuNM",
+		title: "MOONLIGHT SUNRISE",
 		image: "moonlightsunrise"
 	},
 	{
-		title: "Talk that Talk",
 		id: "k6jqx9kZgPM",
+		title: "Talk that Talk",
 		image: "talkthattalk"
 	},
 	{
-		title: "POP!",
 		id: "f6YDKF0LVWw",
+		title: "POP!",
 		image: "pop"
 	},
 	{
-		title: "Celebrate",
 		id: "fMIn43MiwG8",
+		title: "Celebrate",
 		image: "celebrate"
 	},
 	{
-		title: "Doughnut",
 		id: "VcOSUOpACq0",
+		title: "Doughnut",
 		image: "doughnut"
 	},
 	{
-		title: "SCIENTIST",
 		id: "vPwaXytZcgI",
+		title: "SCIENTIST",
 		image: "scientist"
 	},
 	{
-		title: "The Feels",
 		id: "f5_wn8mexmM",
+		title: "The Feels",
 		image: "thefeels"
 	},
 	{
-		title: "Perfect World",
 		id: "fmOEKOjyDxU",
+		title: "Perfect World",
 		image: "perfectworld"
 	},
 	{
-		title: "Alcohol-Free",
 		id: "XA2YEHn-A8Q",
+		title: "Alcohol-Free",
 		image: "alcoholfree"
 	},
 	{
-		title: "Kura Kura",
 		id: "BSS8Y-0hOlY",
+		title: "Kura Kura",
 		image: "kurakura"
 	},
 	{
-		title: "BETTER",
 		id: "sLmLwgxnPUE",
+		title: "BETTER",
 		image: "better"
 	},
 	{
-		title: "I CAN'T STOP ME",
 		id: "CM4CkVFmTds",
+		title: "I CAN'T STOP ME",
 		image: "icantstopme"
 	},
 	{
-		title: "Fanfare",
 		id: "kRT174IdxuM",
+		title: "Fanfare",
 		image: "fanfare"
 	},
 	{
-		title: "More & More",
 		id: "mH0_XpSHkZo",
+		title: "More & More",
 		image: "more&more"
 	},
 	{
-		title: "Fake & True",
 		id: "zQELp93xxfo",
+		title: "Fake & True",
 		image: "fake&true"
 	},
 	{
-		title: "Feel Special",
 		id: "3ymwOvzhwHs",
+		title: "Feel Special",
 		image: "feelspecial"
 	},
 	{
-		title: "Breakthrough",
 		id: "ZdKYi5ekshM",
+		title: "Breakthrough",
 		image: "breakthrough"
 	},
 	{
-		title: "HAPPY HAPPY",
 		id: "3n9rDwpa6QA",
+		title: "HAPPY HAPPY",
 		image: "happyhappy"
 	},
 	{
-		title: "FANCY",
 		id: "kOHB85vDuow",
+		title: "FANCY",
 		image: "fancy"
 	},
 	{
-		title: "The Best Thing I Ever Did",
 		id: "CfUGjK6gGgs",
+		title: "The Best Thing I Ever Did",
 		image: "bestthingieverdid"
 	},
 	{
-		title: "YES or YES",
 		id: "mAKsZ26SabQ",
+		title: "YES or YES",
 		image: "yesoryes"
 	},
 	{
-		title: "STAY BY MY SIDE",
 		id: "96K5RxgTfW4",
+		title: "STAY BY MY SIDE",
 		image: "staybymyside"
 	},
 	{
-		title: "BDZ",
 		id: "CMNahhgR_ss",
+		title: "BDZ",
 		image: "bdz"
 	},
 	{
-		title: "Dance the Night Away",
 		id: "Fm5iP0S1z9w",
+		title: "Dance the Night Away",
 		image: "dancethenightaway"
 	},
 	{
-		title: "I WANT YOU BACK",
 		id: "X3H-4crGD6k",
+		title: "I WANT YOU BACK",
 		image: "iwantyouback"
 	},
 	{
-		title: "Wake Me Up",
 		id: "DdLYSziSXII",
+		title: "Wake Me Up",
 		image: "wakemeup"
 	},
 	{
-		title: "What is Love?",
 		id: "i0p1bmr0EmE",
+		title: "What is Love?",
 		image: "whatislove"
 	},
 	{
-		title: "BRAND NEW GIRL",
 		id: "r1CMjQ0QJ1E",
+		title: "BRAND NEW GIRL",
 		image: "brandnewgirl"
 	},
 	{
-		title: "Candy Pop",
 		id: "wQ_POfToaVY",
+		title: "Candy Pop",
 		image: "candypop"
 	},
 	{
-		title: "Merry & Happy",
 		id: "zi_6oaQyckM",
+		title: "Merry & Happy",
 		image: "merry&happy"
 	},
 	{
-		title: "Heart Shaker",
 		id: "rRzxEiBLQCA",
+		title: "Heart Shaker",
 		image: "heartshaker"
 	},
 	{
-		title: "LIKEY",
 		id: "V2hlQkVJZhE",
+		title: "LIKEY",
 		image: "likey"
 	},
 	{
-		title: "One More Time",
 		id: "HuoOEry-Yc4",
+		title: "One More Time",
 		image: "onemoretime"
 	},
 	{
-		title: "TT Japanese",
 		id: "t35H2BVq490",
+		title: "TT Japanese",
 		image: "ttjapanese"
 	},
 	{
-		title: "SIGNAL",
 		id: "VQtonf1fv_s",
+		title: "SIGNAL",
 		image: "signal"
 	},
 	{
-		title: "KNOCK KNOCK",
 		id: "8A2t_tAjMz8",
+		title: "KNOCK KNOCK",
 		image: "knockknock"
 	},
 	{
-		title: "TT",
 		id: "ePpPVE-GGJw",
+		title: "TT",
 		image: "tt"
 	},
 	{
-		title: "CHEER UP",
 		id: "c7rCyll5AeY",
+		title: "CHEER UP",
 		image: "cheerup"
 	},
 	{
-		title: "Like OOH-AHH",
 		id: "0rtV5esQT6I",
+		title: "Like OOH-AHH",
 		image: "likeoohahh"
 	}
 ]

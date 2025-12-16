@@ -14,7 +14,7 @@ export default function Discography() {
 						<img
 							key={album.title}
 							alt={album.title}
-							src={index <= count ? `/images/discography/${album.art}.jpeg` : undefined}
+							src={index <= count ? `/images/discography/${album.image}.jpeg` : undefined}
 							onLoad={e => {
 								e.currentTarget.classList.add('loaded')
 								setCount(c => c + 1)
