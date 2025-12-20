@@ -11,18 +11,19 @@ export default function Discography() {
 			<div className='thumb_container'>
 				{albums.map((album, index) => {
 					return (
-						<img
-							key={album.title}
-							alt={album.title}
-							src={index <= count ? `/images/discography/${album.image}.jpeg` : undefined}
-							onLoad={e => {
-								e.currentTarget.classList.add('loaded')
-								setCount(c => c + 1)
-							}}
-							width={700}
-							height={700}
-							onClick={() => setActiveAlbum(album)}
-						/>
+						<button key={album.title} type='button' aria-label={album.title} onClick={() => setActiveAlbum(album)}>
+							<img
+								key={album.title}
+								alt={album.title}
+								src={index <= count ? `/images/discography/${album.image}.jpeg` : undefined}
+								onLoad={e => {
+									e.currentTarget.parentElement.classList.add('loaded')
+									setCount(c => c + 1)
+								}}
+								width={700}
+								height={700}
+							/>
+						</button>
 					)
 				})}
 			</div>

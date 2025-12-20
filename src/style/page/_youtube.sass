@@ -9,15 +9,11 @@ html[data-page='choreography'], html[data-page='video']
 				gap: 3vw
 			@media (max-width: 500px)
 				grid-template-columns: 1fr
-			> div
+			> button
 				position: relative
 				overflow: hidden
 				height: 0
 				padding-bottom: 56.25%
-				border: 1px solid #ccc
-				opacity: 0
-				transition: opacity 0.3s
-				cursor: pointer
 				> img
 					position: absolute
 					width: 100%
@@ -34,12 +30,13 @@ html[data-page='choreography'], html[data-page='video']
 					background: rgba(255, 255, 255, 0.7)
 					font-size: 1.1vw
 					font-weight: 500
+					font-family: cabin, arial
+					color: black
+					text-transform: uppercase
 					@media (max-width: 1200px)
 						font-size: 2.7vw
 					@media (max-width: 500px)
 						font-size: 5.2vw
-			> div.loaded
-				opacity: 1
 		.modal
 			> iframe
 				width: 60vw

@@ -9,15 +9,10 @@ html[data-page='discography']
 				grid-template-columns: 1fr 1fr
 				grid-template-rows: repeat(15, 1fr)
 				gap: 3vw
-			> img
-				width: 100%
-				height: auto
-				border: 1px solid #ccc
-				opacity: 0
-				transition: opacity 0.3s
-				cursor: pointer
-			> img.loaded
-				opacity: 1
+			> button
+				> img
+					width: 100%
+					height: auto
 		.modal
 			@media (max-width: 1200px)
 				align-items: flex-start

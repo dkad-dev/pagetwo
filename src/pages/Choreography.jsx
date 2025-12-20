@@ -11,7 +11,7 @@ export default function Choreography() {
 			<div className='thumb_container'>
 				{choreos.map((choreo, index) => {
 					return (
-						<div>
+						<button key={choreo.title} type='button' aria-label={choreo.title} onClick={() => setActiveChoreo(choreo)}>
 							<img
 								key={choreo.title}
 								alt={choreo.title}
@@ -22,10 +22,9 @@ export default function Choreography() {
 								}}
 								width={1920}
 								height={1080}
-								onClick={() => setActiveChoreo(choreo)}
 							/>
 							<div>{choreo.title}</div>
-						</div>
+						</button>
 					)
 				})}
 			</div>

@@ -11,7 +11,7 @@ export default function Video() {
 			<div className='thumb_container'>
 				{videos.map((video, index) => {
 					return (
-						<div>
+						<button key={video.title} type='button' aria-label={video.title} onClick={() => setActiveVideo(video)}>
 							<img
 								key={video.title}
 								alt={video.title}
@@ -22,10 +22,9 @@ export default function Video() {
 								}}
 								width={1920}
 								height={1080}
-								onClick={() => setActiveVideo(video)}
 							/>
 							<div>{video.title}</div>
-						</div>
+						</button>
 					)
 				})}
 			</div>

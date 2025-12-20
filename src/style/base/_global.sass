@@ -1,55 +1,68 @@
 @font-face
-  font-family: cabin
-  src: url("../../assets/fonts/cabin.ttf")
+	font-family: cabin
+	src: url("../../assets/fonts/cabin.ttf")
 
 *
-  padding: 0
-  margin: 0
-  box-sizing: border-box
-  scrollbar-width: none
-  -webkit-tap-highlight-color: transparent
+	padding: 0
+	margin: 0
+	box-sizing: border-box
+	scrollbar-width: none
+	-webkit-tap-highlight-color: transparent
 
 html
-  height: 100%
-  font-size: 1vw
-  font-family: cabin, arial
-  color: black
-  text-transform: uppercase
+	height: 100%
+	font-size: 1vw
+	font-family: cabin, arial
+	color: black
+	text-transform: uppercase
 
 body
-  height: 100%
+	height: 100%
 
 #root
-  min-height: 100%
-  display: flex
-  flex-direction: column
-  align-items: center
+	min-height: 100%
+	display: flex
+	flex-direction: column
+	align-items: center
 
 main
-  flex: 1
+	flex: 1
 
 .thumb_container
-  width: 94vw
+	width: 94vw
+
+button
+	display: flex
+	border: 1px solid #ccc
+	background: none
+	cursor: pointer
+	opacity: 0
+	transition: opacity 0.3s
+button.loaded
+	opacity: 1
+
+img
+	display: block
 
 .modal
-  position: fixed
-  z-index: 20
-  top: 0
-  left: 0
-  display: flex
-  justify-content: center
-  align-items: center
-  width: 100vw
-  height: 100vh
-  backdrop-filter: blur(10px)
-  overflow: auto
+	position: fixed
+	z-index: 20
+	top: 0
+	left: 0
+	display: flex
+	justify-content: center
+	align-items: center
+	width: 100vw
+	height: 100vh
+	backdrop-filter: blur(10px)
+	overflow: auto
 
 .frost
-  background: rgba(255, 255, 255, 0.6)
-  backdrop-filter: blur(10px)
+	background: rgba(255, 255, 255, 0.6)
+	backdrop-filter: blur(10px)
 
 iframe
-  aspect-ratio: 16 / 9
-  border: none
-  @media (max-width: 1200px)
-    width: 94vw !important
+	aspect-ratio: 16 / 9
+	border: none
+	@media (max-width: 1200px)
+		width: 94vw !important

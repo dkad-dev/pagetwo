@@ -6,17 +6,14 @@ html[data-page='profile']
 			grid-template-rows: 1fr
 			border: 1px solid #ccc
 			background: rgb(240, 240, 240)
-			cursor: pointer
 			@media (max-width: 1200px)
 				grid-template-columns: repeat(3, 1fr)
 				grid-template-rows: repeat(3, 1fr)
-			> img
-				width: 100%
-				height: auto
-				opacity: 0
-				transition: opacity 0.3s
-			> img.loaded
-				opacity: 1
+			> button
+				border: none
+				> img
+					width: 100%
+					height: auto
 		.modal
 			@media (max-width: 1200px)
 				align-items: flex-start

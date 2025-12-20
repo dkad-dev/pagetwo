@@ -1,4 +1,8 @@
+import useEscapeKey from '../hooks/useEscapeKey'
+
 export default function YouTubeModal({ obj, onClose }) {
+	useEscapeKey(onClose)
+
 	return (
 		<div className="modal" onClick={onClose}>
 			<iframe

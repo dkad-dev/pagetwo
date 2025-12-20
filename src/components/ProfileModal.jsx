@@ -1,4 +1,8 @@
+import useEscapeKey from '../hooks/useEscapeKey'
+
 export default function ProfileModal({ member, onClose }) {
+	useEscapeKey(onClose)
+
 	return (
 		<div className='modal' onClick={onClose}>
 			<div className='grid_container'>

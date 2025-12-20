@@ -1,4 +1,8 @@
+import useEscapeKey from '../hooks/useEscapeKey'
+
 export default function DiscographyModal({ album, onClose }) {
+	useEscapeKey(onClose)
+
 	const renderTrack = track => {
 		const index = track.indexOf('•')
 		if (index === -1) {
