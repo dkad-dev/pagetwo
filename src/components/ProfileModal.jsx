@@ -4,7 +4,7 @@ export default function ProfileModal({ member, onClose }) {
 	useEscapeKey(onClose)
 
 	return (
-		<div className='modal' onClick={onClose}>
+		<div className='modal' role='dialog' aria-modal='true' onClick={onClose}>
 			<div className='grid_container'>
 				<img src={`images/profile/${member.name}.jpg`} alt={member.name} width={800} height={1200} />
 
