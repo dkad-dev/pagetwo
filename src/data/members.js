@@ -32,7 +32,7 @@ export const members = [
 		name: "jihyo",
 		birth: "February 1, 1997",
 		nation: "South Korea",
-		intro: "Jihyo, the official leader of TWICE, is known for her strong leadership skills and dedication to the group's well-being. Jihyo is praised for her maturity and calm demeanor, both on and off the stage."
+		intro: "Jihyo, the official leader of TWICE, is known for her strong communication skills and dedication to the group's well-being. Jihyo is praised for her maturity and calm demeanor, both on and off the stage."
 	},
 	{
 		id: "7kV7urmtsWE",
