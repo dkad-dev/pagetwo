@@ -25,7 +25,7 @@ export const members = [
 		name: "sana",
 		birth: "December 29, 1996",
 		nation: "Japan",
-		intro: "Sana is renowned for her infectious charm and lively personality, often drawing attention for her playful fan interactions. Despite her popularity, Sana has been regarded as TWICE's most humble member."
+		intro: "Sana is renowned for her infectious charm and lively personality, often drawing attention for her playful fan interactions. Despite her popularity, Sana has been regarded as TWICE's humblest member."
 	},
 	{
 		id: "CYicpmxKyME",
