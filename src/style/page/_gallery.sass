@@ -10,18 +10,22 @@ html[data-page='gallery']
 				justify-content: space-between
 			> button
 				flex-grow: 1
-				height: 11.25vw
+				height: 14vw
+				max-width: 250px
+				overflow: hidden
 				@media (max-width: 1200px)
 					flex-grow: 0
 					width: 45.5vw
 					height: 60vw
+					max-width: none
 				> img
 					width: 100%
 					height: 100%
 					object-fit: cover
-					overflow-x: visible
+					object-position: top
+					overflow: visible
 					@media (max-width: 1200px)
-						overflow-x: clip
+						object-position: center
 		.modal
 			> img
 				max-width: 94vw
