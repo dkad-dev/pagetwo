@@ -60,6 +60,6 @@ export const members = [
 		name: "tzuyu",
 		birth: "June 14, 1999",
 		nation: "Taiwan",
-		intro: "Tzuyu, the youngest member, captivates audiences with her visuals and ethereal presence. Despite her reserved nature, her studio recordings reveal a confident, sincere, and authentic individual."
+		intro: "Tzuyu, the youngest member, captivates audiences with her visuals and ethereal presence. Despite her aloof nature, her studio recordings reveal a confident, sincere, and authentic individual."
 	}
 ]
