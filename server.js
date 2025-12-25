@@ -14,6 +14,30 @@ app.use((req, res) => {
 	res.set('Cache-Control', 'no-cache').sendFile(path.join(distPath, 'index.html'))
 })
 
-app.listen(process.env.PORT, () => {
+const server = app.listen(process.env.PORT, () => {
 	console.log('Express: Server is up and running')
+})
+
+async function shutdown() {
+	console.log('Shutting down...')
+	try {
+		await new Promise((resolve) => {
+			server.close(() => {
+				console.log('Express server closed')
+				resolve()
+			})
+		})
+		process.exit(0)
+	}
+	catch {
+		console.error('An error occurred while shutting down')
+	}
+}
+
+process.on('SIGTERM', () => {
+	shutdown()
+})
+
+process.on('SIGINT', () => {
+	shutdown()
 })
